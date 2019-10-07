@@ -1,0 +1,33 @@
+
+.suggestions input{
+    border:none;
+    box-sizing: border-box;
+}
+
+.suggestions ul{
+    list-style-type: none;
+    text-align: left;
+    margin:0;
+    padding:0;
+    border-top: 1px solid grey;
+    border:1px solid grey;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 2px 4px 1px rgba(0,0,0,0.18);
+}
+
+.suggestions ul::before{
+    content:"";
+}
+
+.suggestions li{
+    padding:10px 5px;
+    cursor:pointer;
+}
+
+.suggestions li:hover{
+    text-decoration:underline;
+    background-color:rgba(128,128,128,0.20);
+}
+
+.ui.card, .ui.cards>.card{
+    width:355px !important;
+}
